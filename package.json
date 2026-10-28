@@ -27,7 +27,7 @@
     "lint": "eslint src tests --max-warnings 0",
     "typecheck": "tsc --noEmit",
     "pack:check": "npm run build && npm pack --dry-run",
-    "prepublishOnly": "npm run build"
+    "prepare": "npm run build"
   },
   "keywords": [
     "fints",
